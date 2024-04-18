@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header><img class="logo"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAVFJREFUaEPtWG0OwiAMpTdzJ1NP5m5W10SMItBHB9kw3V+g7ftgUChM/tHk9QcHcLSCsALMzJ/FEtHX2r3jViIcQGTOFTB6yC00jYWMCg9fBltoeCXGBA7ASFy3ZUUF0v96t4yFQOnJjuZzAChT2jxXIGVIu9tojGrj4B67b5feWy0WvAesEpeSgwDi8oWI1lysWQCsRLQ4AM3XLePaHtPGY67TWKi1RXUALXbJzdUsoo27Aq7Azncmt5Bb6N8spClaukye5iRWABSv1VMAqF3lzwwg3v+F/WwvIKrVADxCCJcPaYtNhebfTLcncSX++7M2TC0AhIUqGwgQZpbirwk5autYil0D8MMSUqBxTn8AUggzpzYy1lddZi6+ugdiyu28kVcBkXzEV+x10WTQ4+4LhMTsAQT6u3QFgAY7Yh6kwBGFoTkdAMrUqHmuwChm0bhPhllAQPSY9ogAAAAASUVORK5CYII="/>
+        <h1>Coffee Masters</h1>
+    </header>
+    <div class="grid-parent">
+      <!--GRID ITEM 1-->
+      <div class="items div-style">
+        <h3>Items</h3>
+        <!-- Item one-->
+        <div class="flex-row top-btm-padding-8">
+          <span class="number-of-items">1x</span>
+          <div class="flex-column">
+            <span class="item-name">Cappucino</span>
+            <span class="description">Lite foam</span>
+          </div>
+          <span class="left-margin-auto">$3.35</span>
+        </div>
+        <hr />
+        <!-- Item two-->
+        <div class="flex-row top-btm-padding-8">
+          <span class="number-of-items">1x</span>
+          <div class="flex-column">
+            <span class="item-name">Cappucino</span>
+            <span class="description">Lite milk</span>
+            <span class="description">Double espresso</span>
+          </div>
+          <span class="left-margin-auto">$3.85</span>
+        </div>
+        <hr />
+        <!-- Item three-->
+        <div class="flex-row top-btm-padding-8">
+          <span class="number-of-items">1x</span>
+          <div class="flex-column">
+            <span class="item-name">Croissant</span>
+            <span class="description">Butter</span>
+          </div>
+          <span class="left-margin-auto">$3.85</span>
+        </div>
+      </div>
+      <!--GRID ITEM 2-->
+      <div class="name div-style">
+        <h3>Name</h3>
+        <div class="input">
+            <label for="name">Card number</label>
+            <input type="text" name="namer" id="name" />
+        </div>
+      </div>
+      <!--GRID ITEM 3-->
+      <div class="payment div-style">
+        <h3>Payment</h3>
+        <div class="input">
+            <label for="card-number">Card number</label>
+            <input type="text" name="card-number" id="card-number" />
+        </div>
+        <div class="input">
+            <label for="cvv">CVV</label>
+            <input type="text" name="cvv" id="cvvr" />
+        </div>
+       
+        
+      </div>
+      <!--GRID ITEM 4-->
+      <div class="total">
+        <div class="flex-row bottom-margin-8">
+          <span>Subtotal:</span>
+          <span class="left-margin-auto">$9.65</span>
+        </div>
+        <div class="flex-row bottom-margin-8">
+          <span>Tax:</span>
+          <span class="left-margin-auto">$0.82</span>
+        </div>
+        <div class="flex-row bottom-margin-8 total-bold">
+          <span>Total:</span>
+          <span class="left-margin-auto">$10.47</span>
+        </div>
+      </div>
+      <!--GRID ITEM 5-->
+      <div class="btn-place-order">
+        <input type="button" value="Place order" />
+      </div>
+    </div>
+  </body>
+</html>
